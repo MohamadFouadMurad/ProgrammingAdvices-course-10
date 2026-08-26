@@ -30,5 +30,11 @@
     <ClCompile Include="02-Access Specifiers or Modifier\01-Access Specifiers or Modifier.cpp">
       <Filter>Source Files\02-Access Specifiers or Modifier</Filter>
     </ClCompile>
+    <ClCompile Include="01-Classes and Objects\03-Objects In Memory.cpp">
+      <Filter>Source Files\01-Classes and Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="01-Classes and Objects\02-Class Member.cpp">
+      <Filter>Source Files\01-Classes and Objects</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

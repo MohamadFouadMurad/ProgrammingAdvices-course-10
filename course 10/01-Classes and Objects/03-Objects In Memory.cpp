@@ -1,0 +1,1 @@
+// In memory: Each object gets its own space for Data Members, while Member Functions share a single space across all objects.
