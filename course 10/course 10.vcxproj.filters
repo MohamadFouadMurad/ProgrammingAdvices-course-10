@@ -14,21 +14,21 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Source Files\01-Classes and Objects">
-      <UniqueIdentifier>{2b51342f-20ec-4a5b-89be-99dd795eb0e0}</UniqueIdentifier>
+      <UniqueIdentifier>{e910bafe-f1e7-490d-8ede-92da450c7a82}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\02-Access Specifiers/modifiers">
-      <UniqueIdentifier>{a3c831d5-fe67-416c-b26e-bc1ba2616388}</UniqueIdentifier>
+    <Filter Include="Source Files\02-Access Specifiers or Modifier">
+      <UniqueIdentifier>{9a92a8b1-bf3c-4625-bccc-20f2ac9e8361}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01-Classes and Objects.cpp">
-      <Filter>Source Files\01-Classes and Objects</Filter>
-    </ClCompile>
     <ClCompile Include="MyFunctions.h">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="01-Access Specifiers\modifiers.cpp">
-      <Filter>Source Files\02-Access Specifiers/modifiers</Filter>
+    <ClCompile Include="01-Classes and Objects\01-Classes and Objects.cpp">
+      <Filter>Source Files\01-Classes and Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="02-Access Specifiers or Modifier\01-Access Specifiers or Modifier.cpp">
+      <Filter>Source Files\02-Access Specifiers or Modifier</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
