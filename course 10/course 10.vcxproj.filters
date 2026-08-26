@@ -16,13 +16,19 @@
     <Filter Include="Source Files\01-Classes and Objects">
       <UniqueIdentifier>{2b51342f-20ec-4a5b-89be-99dd795eb0e0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\02-Access Specifiers/modifiers">
+      <UniqueIdentifier>{a3c831d5-fe67-416c-b26e-bc1ba2616388}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01-Classes and Objects.cpp">
       <Filter>Source Files\01-Classes and Objects</Filter>
     </ClCompile>
-    <ClCompile Include="MyFunctions.cpp">
+    <ClCompile Include="MyFunctions.h">
       <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01-Access Specifiers\modifiers.cpp">
+      <Filter>Source Files\02-Access Specifiers/modifiers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
