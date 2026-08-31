@@ -19,6 +19,9 @@
     <Filter Include="Source Files\02-Access Specifiers or Modifier">
       <UniqueIdentifier>{9a92a8b1-bf3c-4625-bccc-20f2ac9e8361}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\03-Properties">
+      <UniqueIdentifier>{3bbc3ad9-c5ed-49ea-999d-ce9016d19bdd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyFunctions.h">
@@ -35,6 +38,15 @@
     </ClCompile>
     <ClCompile Include="01-Classes and Objects\02-Class Member.cpp">
       <Filter>Source Files\01-Classes and Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="03-Properies\01-Properties set and get.cpp">
+      <Filter>Source Files\03-Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="03-Properies\02-Read Only Property.cpp">
+      <Filter>Source Files\03-Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="03-Properies\03-Properties set and get through =.cpp">
+      <Filter>Source Files\03-Properties</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
