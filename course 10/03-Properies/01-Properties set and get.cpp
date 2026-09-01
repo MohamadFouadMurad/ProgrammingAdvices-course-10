@@ -39,6 +39,51 @@ public:
 	}
 };
 
+class clsBankAccount
+{
+private:
+
+	string _AccountNumber;
+	double _Balance;
+
+public:
+
+	//property set:
+	void SetAccountNumber(string AccountNumber)
+	{
+		if (!AccountNumber.empty())
+		{
+			_AccountNumber = AccountNumber;
+		}
+	}
+
+	//property get :
+	string GetAccountNumber()
+	{
+		return _AccountNumber;
+	}
+
+	//property set : 
+	void SetBalance(double balance)
+	{
+		if (balance >= 0)
+		{
+			_Balance = balance;
+		}
+		else
+		{
+			cout << "Error : Balance cannot be negative!" << endl;
+		}
+	}
+
+	//property get :
+	double GetBalance()
+	{
+		return _Balance;
+	}
+
+};
+
 
 int main()
 {
@@ -46,11 +91,22 @@ int main()
 	clsPerson Person1;
 
 	Person1.setFirstName("Mohammed");
-	Person1.setLastName("Abu-Hadhoud");
+	Person1.setLastName("fouad");
 
 	cout << "First Name:" << Person1.FirstName() << endl;
 	cout << "Last Name:" << Person1.LastName() << endl;
 	cout << "Full Name:" << Person1.FullName() << endl;
+
+
+	cout << endl;
+
+	clsBankAccount Account1;
+
+	Account1.SetAccountNumber("SA12345678");
+	Account1.SetBalance(1559.39);
+
+	cout << "Account : " << Account1.GetAccountNumber() << endl;
+	cout << "Account : " << Account1.GetBalance() << endl;
 
 	system("pause>0");
 	return 0;
