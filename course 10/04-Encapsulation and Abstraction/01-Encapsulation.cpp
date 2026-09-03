@@ -1,0 +1,1 @@
+// Encapsulation: Bundling data (variables) and methods into one unit (class) — I used this concept before without realizing its formal name until the Dr. explained it.

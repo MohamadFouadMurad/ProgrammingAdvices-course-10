@@ -22,6 +22,12 @@
     <Filter Include="Source Files\03-Properties">
       <UniqueIdentifier>{3bbc3ad9-c5ed-49ea-999d-ce9016d19bdd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\04-Encapsulation and Abstraction">
+      <UniqueIdentifier>{448c477f-26ef-43ae-9097-3b264d0b27e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05-Project 1">
+      <UniqueIdentifier>{6b1d0148-a2f3-4716-9e92-a8e27600dc74}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyFunctions.h">
@@ -47,6 +53,15 @@
     </ClCompile>
     <ClCompile Include="03-Properies\03-Properties set and get through =.cpp">
       <Filter>Source Files\03-Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="01-Encapsulation.cpp">
+      <Filter>Source Files\04-Encapsulation and Abstraction</Filter>
+    </ClCompile>
+    <ClCompile Include="02-Abstraction.cpp">
+      <Filter>Source Files\04-Encapsulation and Abstraction</Filter>
+    </ClCompile>
+    <ClCompile Include="05-Project 1\01-Calculator - solution.cpp">
+      <Filter>Source Files\05-Project 1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
