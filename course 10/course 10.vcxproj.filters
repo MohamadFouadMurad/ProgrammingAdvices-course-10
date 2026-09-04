@@ -28,6 +28,9 @@
     <Filter Include="Source Files\05-Project 1">
       <UniqueIdentifier>{6b1d0148-a2f3-4716-9e92-a8e27600dc74}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\06-Constructors and Destructors">
+      <UniqueIdentifier>{b0bf2c5e-446e-4551-bd14-29d325292cf1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyFunctions.h">
@@ -62,6 +65,15 @@
     </ClCompile>
     <ClCompile Include="05-Project 1\01-Calculator - solution.cpp">
       <Filter>Source Files\05-Project 1</Filter>
+    </ClCompile>
+    <ClCompile Include="06-Constructors and Destructors\01-Constructors.cpp">
+      <Filter>Source Files\06-Constructors and Destructors</Filter>
+    </ClCompile>
+    <ClCompile Include="06-Constructors and Destructors\02-Copy Constructors.cpp">
+      <Filter>Source Files\06-Constructors and Destructors</Filter>
+    </ClCompile>
+    <ClCompile Include="06-Constructors and Destructors\03-Destructors.cpp">
+      <Filter>Source Files\06-Constructors and Destructors</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
