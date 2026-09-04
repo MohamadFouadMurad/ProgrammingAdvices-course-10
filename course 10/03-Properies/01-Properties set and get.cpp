@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class clsPerson
+class clsEmployee
 {
 
 private:
@@ -88,7 +88,7 @@ public:
 int main()
 {
 
-	clsPerson Person1;
+	clsEmployee Person1;
 
 	Person1.setFirstName("Mohammed");
 	Person1.setLastName("fouad");

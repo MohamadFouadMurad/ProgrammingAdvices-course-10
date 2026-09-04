@@ -31,6 +31,12 @@
     <Filter Include="Source Files\06-Constructors and Destructors">
       <UniqueIdentifier>{b0bf2c5e-446e-4551-bd14-29d325292cf1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\07-Static members and methods">
+      <UniqueIdentifier>{6ee40cd6-a09a-49d7-b650-5f0edcfa4b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\08-Exercises and Homework">
+      <UniqueIdentifier>{36836ceb-9e6c-4378-9475-41f5f0165113}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyFunctions.h">
@@ -74,6 +80,18 @@
     </ClCompile>
     <ClCompile Include="06-Constructors and Destructors\03-Destructors.cpp">
       <Filter>Source Files\06-Constructors and Destructors</Filter>
+    </ClCompile>
+    <ClCompile Include="07-Static Members &amp; Methods\01-Static members.cpp">
+      <Filter>Source Files\07-Static members and methods</Filter>
+    </ClCompile>
+    <ClCompile Include="07-Static Members &amp; Methods\02-Statci methods.cpp">
+      <Filter>Source Files\07-Static members and methods</Filter>
+    </ClCompile>
+    <ClCompile Include="08-Exercises and Homework\01-Person Exercise solution.cpp">
+      <Filter>Source Files\08-Exercises and Homework</Filter>
+    </ClCompile>
+    <ClCompile Include="08-Exercises and Homework\02-Employee Exercise.cpp">
+      <Filter>Source Files\08-Exercises and Homework</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

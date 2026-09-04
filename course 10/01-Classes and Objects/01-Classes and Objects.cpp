@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class clsPerson
+class clsEmployee
 {
 	public:
 		
@@ -19,7 +19,7 @@ class clsPerson
 
 int main()
 {
-	clsPerson Person1;
+	clsEmployee Person1;
 
 	Person1.FirstName = "Mohamad fouad";
 	Person1.LastName = "Murad";

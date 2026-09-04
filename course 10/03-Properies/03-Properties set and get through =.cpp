@@ -55,7 +55,7 @@ public:
     __declspec(property(put = SetPassword)) string Password;
 };
 
-class clsPerson
+class clsEmployee
 {
 private:
 	string _FirstName;
@@ -77,7 +77,7 @@ public:
 
 int main()
 {
-	clsPerson Person1;
+	clsEmployee Person1;
 
 	Person1.SetFirstName("Mohammed");
 	cout << Person1.GetFirstName() << endl;
