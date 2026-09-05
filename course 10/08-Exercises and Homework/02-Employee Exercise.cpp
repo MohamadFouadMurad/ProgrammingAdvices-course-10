@@ -29,7 +29,7 @@ public:
 		_Department = Department;
 	}
 
-	//Property Read only
+	//Read only property
 	int ID()
 	{
 		return _ID;

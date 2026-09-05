@@ -37,6 +37,9 @@
     <Filter Include="Source Files\08-Exercises and Homework">
       <UniqueIdentifier>{36836ceb-9e6c-4378-9475-41f5f0165113}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\09-Inheritance">
+      <UniqueIdentifier>{3f157e52-17fb-4634-9c3c-f64dbf65f595}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyFunctions.h">
@@ -92,6 +95,18 @@
     </ClCompile>
     <ClCompile Include="08-Exercises and Homework\02-Employee Exercise.cpp">
       <Filter>Source Files\08-Exercises and Homework</Filter>
+    </ClCompile>
+    <ClCompile Include="09-inheritance\01- 3 Concept of oop , inheritance.cpp">
+      <Filter>Source Files\09-Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="09-inheritance\02-Parameterized Constructor of the base class.cpp">
+      <Filter>Source Files\09-Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="09-inheritance\03-Function Overriding.cpp">
+      <Filter>Source Files\09-Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="09-inheritance\04-Homework - Developer Exercise.cpp">
+      <Filter>Source Files\09-Inheritance</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -23,6 +23,46 @@ public:
 
 int clsA::counter = 0; //static variable initialisation outside the class
 
+
+class clsBankAccount
+{
+public:
+	string _owner;
+	double _balance;
+	static double totalMoney;
+
+	clsBankAccount(string owner,double balance)
+	{
+		_owner = owner;
+		_balance = balance;
+		totalMoney += balance;
+	}
+
+	void Deposit(double Amount)
+	{
+		_balance += Amount;
+		totalMoney += Amount;
+	}
+
+	void withdraw(double amount)
+	{
+		_balance -= amount;
+		totalMoney -= amount;
+	}
+
+	void Show()
+	{
+		cout << endl << _owner << " Balance: " << _balance << endl;
+		cout << "Total money in bank: " << totalMoney << endl;
+	}
+
+
+};
+
+
+double clsBankAccount::totalMoney = 0;
+
+
 int main()
 {
 	clsA A1, A2, A3;
@@ -43,4 +83,16 @@ int main()
 	A1.Print();
 	A2.Print();
 	A3.Print();
+
+
+
+	clsBankAccount BankAccount1("Ali", 1000);
+	clsBankAccount BankAccount2("Sara", 2000);
+
+	BankAccount1.Deposit(500);
+	BankAccount2.withdraw(300);
+
+	BankAccount1.Show();
+	BankAccount2.Show();
+
 }
