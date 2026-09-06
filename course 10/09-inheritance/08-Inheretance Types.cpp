@@ -1,0 +1,1 @@
+// Inheritance Types: Modern languages natively support Single, Multilevel, and Hierarchical; Multiple and Hybrid are mostly avoided or replaced by Interfaces due to the Diamond Problem.
