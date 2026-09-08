@@ -40,6 +40,15 @@
     <Filter Include="Source Files\09-Inheritance">
       <UniqueIdentifier>{3f157e52-17fb-4634-9c3c-f64dbf65f595}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\010-Polymorphism">
+      <UniqueIdentifier>{bfe8dab0-9053-458b-8d82-b39f3c814674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\011-Friend Classes &amp; Friend Functions">
+      <UniqueIdentifier>{c9f14153-734b-4ed8-b36b-273bd05a34bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\012-Misc.">
+      <UniqueIdentifier>{c041bba6-b956-4ff3-9ffe-0ff4880c74ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyFunctions.h">
@@ -128,6 +137,27 @@
     </ClCompile>
     <ClCompile Include="09-inheritance\011-Static or Early Binding vs Dynamic or Late Building.cpp">
       <Filter>Source Files\09-Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="010-Polymorphism\01- 4 Concept of OOP Polymorphism.cpp">
+      <Filter>Source Files\010-Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="010-Polymorphism\02-Interfaces pure virtual functions and abstract classes.cpp">
+      <Filter>Source Files\010-Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="11-Friend classes and functions\02-Friend functions.cpp">
+      <Filter>Source Files\011-Friend Classes &amp; Friend Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="11-Friend classes and functions\01-Friend classes.cpp">
+      <Filter>Source Files\011-Friend Classes &amp; Friend Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="012-Misc\01-structure inside class.cpp">
+      <Filter>Source Files\012-Misc.</Filter>
+    </ClCompile>
+    <ClCompile Include="012-Misc\02-Nested classes.cpp">
+      <Filter>Source Files\012-Misc.</Filter>
+    </ClCompile>
+    <ClCompile Include="012-Misc\03-HomeWork Nested classes.cpp">
+      <Filter>Source Files\012-Misc.</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
