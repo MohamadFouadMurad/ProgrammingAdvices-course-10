@@ -49,6 +49,21 @@
     <Filter Include="Source Files\012-Misc.">
       <UniqueIdentifier>{c041bba6-b956-4ff3-9ffe-0ff4880c74ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\013-Organizing Code Using Libraries">
+      <UniqueIdentifier>{de77058e-4f68-4c08-bf78-6352e8344e2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\014-‘this’ pointer in C++">
+      <UniqueIdentifier>{0f8eca28-4d87-44a1-8f90-d09871e6b97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\015-Misc.">
+      <UniqueIdentifier>{db50223e-f282-4156-9ce6-02f9b10fca5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\016-Class vs Structure">
+      <UniqueIdentifier>{ab3e95d9-3ef7-4ed5-83e6-c3307bb42c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\017-Projects">
+      <UniqueIdentifier>{35cc9c5f-98ef-42aa-8445-3e69aa25e0fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyFunctions.h">
@@ -159,5 +174,34 @@
     <ClCompile Include="012-Misc\03-HomeWork Nested classes.cpp">
       <Filter>Source Files\012-Misc.</Filter>
     </ClCompile>
+    <ClCompile Include="013-Organizing Code Using Libraries\01-  Separate Classes In Libraries.cpp">
+      <Filter>Source Files\013-Organizing Code Using Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="014-This pointere in C++\01-What is %27this%27 pointer.cpp">
+      <Filter>Source Files\014-‘this’ pointer in C++</Filter>
+    </ClCompile>
+    <ClCompile Include="015-Misc\01-Passing Objects to Functions (ByRefByVal).cpp">
+      <Filter>Source Files\015-Misc.</Filter>
+    </ClCompile>
+    <ClCompile Include="015-Misc\02-Objects and vectors.cpp">
+      <Filter>Source Files\015-Misc.</Filter>
+    </ClCompile>
+    <ClCompile Include="015-Misc\03-Objects and Dynamic Array.cpp">
+      <Filter>Source Files\015-Misc.</Filter>
+    </ClCompile>
+    <ClCompile Include="015-Misc\04-Objects With Parameterized Constructor and Array.cpp">
+      <Filter>Source Files\015-Misc.</Filter>
+    </ClCompile>
+    <ClCompile Include="016-Class vs structure\01-What is the difference Between class and structure.cpp">
+      <Filter>Source Files\016-Class vs Structure</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clsperson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsemployee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
