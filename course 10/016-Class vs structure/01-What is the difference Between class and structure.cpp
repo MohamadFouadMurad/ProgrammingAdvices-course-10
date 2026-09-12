@@ -1,0 +1,1 @@
+// Struct vs Class: In C++, members & inheritance are Public by default in struct and Private by default in class; other distinctions shown (Value/Reference, Stack/Heap) apply to C#/.NET rather than native C++.

@@ -88,7 +88,7 @@ public:
 		return _FullName;
 	}
 
-	//because clsAddress have constructors so we need to give a initial value like what we do in constructors examplies in main
+	//because clsAddress have constructors so we need to give a initial value like what we do in constructors examples in main
 	clsAddress Address = clsAddress("", "", "", "");
 
 	clsPerson(string FullName, string AddressLine1, string AddressLine2, string City, string Country)
