@@ -195,7 +195,10 @@
     <ClCompile Include="016-Class vs structure\01-What is the difference Between class and structure.cpp">
       <Filter>Source Files\016-Class vs Structure</Filter>
     </ClCompile>
-    <ClCompile Include="017-Project\string library.cpp">
+    <ClCompile Include="017-Project\01-string library.cpp">
+      <Filter>Source Files\017-Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="017-Project\02-Date library.cpp">
       <Filter>Source Files\017-Projects</Filter>
     </ClCompile>
   </ItemGroup>
@@ -207,6 +210,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="clsString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
