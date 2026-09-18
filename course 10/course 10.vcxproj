@@ -184,6 +184,7 @@
     <ClCompile Include="016-Class vs structure\01-What is the difference Between class and structure.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="017-Project\string library.cpp" />
     <ClCompile Include="02-Abstraction.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -270,6 +271,7 @@
   <ItemGroup>
     <ClInclude Include="clsemployee.h" />
     <ClInclude Include="clsperson.h" />
+    <ClInclude Include="clsString.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
