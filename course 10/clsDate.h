@@ -15,8 +15,6 @@ private:
 	short _Month = 0;
 	short _Year = 1900;
 
-	enum enDateCompare { Before = -1, Equal = 0, After = 1 };
-
 public:
 
 	clsDate()
@@ -91,6 +89,8 @@ public:
 	{
 		*this = GetDateFromDayOrderInYear(DateOrderInYear, Year);
 	}
+
+	enum enDateCompare { Before = -1, Equal = 0, After = 1 };
 
 	void SetDay(short Day)
 	{

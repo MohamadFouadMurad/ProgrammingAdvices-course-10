@@ -187,7 +187,10 @@
     <ClCompile Include="017-Project\01-string library.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="017-Project\02-Date library.cpp" />
+    <ClCompile Include="017-Project\02-Date library.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="017-Project\03-Period class.cpp" />
     <ClCompile Include="02-Abstraction.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -274,6 +277,7 @@
   <ItemGroup>
     <ClInclude Include="clsDate.h" />
     <ClInclude Include="clsemployee.h" />
+    <ClInclude Include="clsPeriod.h" />
     <ClInclude Include="clsperson.h" />
     <ClInclude Include="clsString.h" />
   </ItemGroup>
